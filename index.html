@@ -22,21 +22,27 @@
     </div>
      <div id="font">
       <h2>Font</h2>
-        <ul>
-        <div>
-         <li><p>Chango</p></li>
-         　<a id="chango">ABC </a>
-        </div> 
-        <div>
-         <li><p>New Tegomin</p></li>
-         　<a id="newtegomin">ABC あいうえお　字体</a>
-        </div> 
-        <div>
-         <li><p>Oswald</p></li>
-         　<a id="oswald">ABC あいうえお　字体</a>
-        </div> 
-        </ul>
+         <select name="font" id="fonts">
+           <option value=""><br></option>
+           <option value="'Oswald', sans-serif">oswald</option>
+           <option value="'Chango', cursive">Chango</option>
+           <option value="'New Tegomin', serif">New Tegomin</option>
+           <option value="'Dela Gothic One', cursive">Dela Gothic One</option>
+           
+         </select>
+         <button id="FC" onclick="changeFonts()">go</button> <button onclick="clearBtn1()">clear</button>
+          <br>
+          <br>
+          <br>
+         　<a class="letter">ABC あいうえお　字体</a>
+         
+         <style>
+           .letter {
+             font-family: "";
+           }
+         </style>
      </div> 
+     <br><br>
      <script type="text/javascript" src="script.js"></script>
   </body>
   <footer>©HIROKI</footer>
