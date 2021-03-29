@@ -6,30 +6,40 @@ body {
 
 h1 {
   text-align: center;
-  border: 1px solid skyblue;
+  border: 5px dotted brown;
   color: brown;
   font-family: 'Dela Gothic One', cursive;
-  font-size:40px;
+  font-size:90px;
+  background-color: rgba(226, 173, 73, 0.747);
 }
 
 h2 {
   font-family: 'Dela Gothic One', cursive;
+  margin: 70px;
+  color:firebrick;
+  text-align: left;
+  font-size: 60px;
 }
+
+#s1,#s2 {
+  font-size: 30px;
+  color:firebrick;
+}
+
 
 
 
 #box {
   border: 0.5px solid black;
-  width: 80px;
+  width: 200px;
+  height: 160px;
   margin: 20px auto;
 
 }
 
-font {
-  margin: 200px auto;
+body {
+  background-color:lemonchiffon;
 }
-
-
 
 /*#chango {
   font-family: 'Chango', cursive;
@@ -43,13 +53,16 @@ font {
   font-family: 'Oswald', sans-serif;
 }*/
 
+a {
+  font-size: 60px;
+}
 
 
 
 
 footer {
   text-align: center;
-  background-color: black;
+  background-color:firebrick;
   color: white;
   margin: auto;
 }
