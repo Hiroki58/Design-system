@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Dela+Gothic+One&family=New+Tegomin&family=Oswald:wght@200&family=Roboto:wght@700&display=swap');
+
+
+
+h1 {
+  text-align: center;
+  border: 3px solid skyblue;
+  color: brown;
+  font-family: 'Dela Gothic One', cursive;
+  font-size:40px;
+}
+
+h2 {
+  font-family: 'Dela Gothic One', cursive;
+}
+
+
+
+#box {
+  border: 0.5px solid black;
+  width: 80px;
+
+}
+
+#para {
+  border: 0.5px solid black;
+  width: 80px;
+}
+
+
+#chango {
+  font-family: 'Chango', cursive;
+}
+
+#newtegomin {
+  font-family: 'New Tegomin', serif;
+}
+
+#oswald {
+  font-family: 'Oswald', sans-serif;
+}
+
+li {
+    font-family: 'Dela Gothic One', cursive;
+}
+
+form {
+  position: relative;
+  top: -40px;
+  left:130px;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
